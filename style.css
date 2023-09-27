@@ -59,7 +59,7 @@ header > ul {
 
 li > a {
   text-decoration: none;
-  color: white
+  color: #E5E7EB;
 }
 
 main {
@@ -118,3 +118,137 @@ header, section, footer  {
   cursor: pointer;
   background-color: #9956a5;
 }
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 32px;
+  padding-bottom: 100px;
+  color: #1F2937;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 2 1 200px;
+}
+
+.service .sub-title {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.service p {
+  color: #1f293794;
+}
+
+
+
+.service-icons {
+  background-image: linear-gradient(
+  330deg,
+  hsl(291deg 47% 60%) 0%,
+  hsl(292deg 46% 63%) 35%,
+  hsl(292deg 46% 67%) 48%,
+  hsl(293deg 45% 70%) 57%,
+  hsl(293deg 45% 74%) 64%,
+  hsl(294deg 44% 77%) 70%,
+  hsl(294deg 43% 80%) 75%,
+  hsl(295deg 41% 84%) 79%,
+  hsl(296deg 39% 87%) 83%,
+  hsl(298deg 34% 91%) 88%,
+  hsl(302deg 25% 94%) 93%,
+  hsl(90deg 17% 98%) 100%
+);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.section-3 {
+  background-color: #E5E7EB;
+  padding-block: 64px; 
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
+.quote-container > div {
+  font: italic 36px lighter;
+  color: #1F2937;
+}
+
+.quote-container > span {
+  font-weight: 800;
+  align-self: flex-end;
+  color: #1F2937;
+}
+
+.section-4 {
+  padding-block: 64px;
+}
+
+.call-action {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 32px 64px;
+  background-color: #BA68C8;
+  color: #E5E7EB;
+  border-radius: 10px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.action h4 {
+  font-weight: 800;
+}
+
+.call-action button {
+  border-style: none;
+  background-color: #BA68C8;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 8px 32px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #E5E7EB; 
+}
+.call-action button:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding-block: 32px
+
+}
+
+
+
