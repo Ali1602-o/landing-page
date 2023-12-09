@@ -1,5 +1,5 @@
 # EasyPay Landing Page
-A Landing page project created in The Odin Project
+A Simple Landing page project created in The Odin Project
 
 
 
